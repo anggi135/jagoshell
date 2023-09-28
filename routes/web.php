@@ -20,9 +20,5 @@ use App\Http\Controllers\QerzaAdminController;
  */
 
 
-Route::controller(QerzaAdminController::class)->group(function () {
-    Route::get('/', 'dashboard_1');
-    Route::get('/index', 'dashboard_1');
-});
 
 
